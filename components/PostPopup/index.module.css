@@ -1,0 +1,35 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  background-color: #222;
+  border-radius: 30px;
+}
+
+.cardHeader {
+  height: 20px;
+  color: #ddd;
+  font-size: 1.2rem;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.cardFooter {
+  height: 20px;
+}
+
+.img {
+  margin: 20px 0;
+  max-height: calc(100vw - 250px);
+}
